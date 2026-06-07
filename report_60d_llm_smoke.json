@@ -1,0 +1,358 @@
+{
+  "submission_dir": "C:\\Users\\2024qy\\Desktop\\participants_package",
+  "interface_smoke": {
+    "status": "ok"
+  },
+  "task1": {
+    "score": 66.8,
+    "legacy_score": 71.4,
+    "component_scores": {
+      "format": 100.0,
+      "disposition_effect": 0.0,
+      "belief_correlation": 100.0,
+      "turnover_similarity": 82.2
+    },
+    "strict_component_scores": {
+      "format": 100.0,
+      "disposition_effect": 0.0,
+      "belief_correlation": 100.0,
+      "turnover_similarity": 82.2,
+      "cross_symbol_stability": 60.3,
+      "action_diversity": 75.0
+    },
+    "strict_penalties": {
+      "too_few_sells": 25.0
+    },
+    "checks": {
+      "returns_agent_decision": "60/60",
+      "action_valid": "60/60",
+      "thought_present": "60/60",
+      "belief_in_range": "60/60",
+      "sentiment_valid": "60/60",
+      "limit_price_positive": "60/60",
+      "quantity_non_negative": "60/60",
+      "sell_not_over_position": "60/60",
+      "buy_not_far_over_cash": "60/60"
+    },
+    "metrics": {
+      "DE": 0.0,
+      "PGR": 0.0,
+      "PLR": 0.0,
+      "belief_action_spearman": 1.0,
+      "turnover_wasserstein": 0.0862,
+      "avg_turnover": 0.0094
+    },
+    "data": {
+      "data_dir": "C:\\Users\\2024qy\\Desktop\\participants_package\\market_60d_package\\data",
+      "train_start": "第1天",
+      "train_end": "第25天",
+      "train_days": 25,
+      "symbols": 10,
+      "observations": 60,
+      "trades": 10
+    },
+    "action_counts": {
+      "buy": 10,
+      "sell": 0,
+      "hold": 50
+    },
+    "symbol_counts": {
+      "STOCK_001": 6,
+      "STOCK_002": 6,
+      "STOCK_003": 6,
+      "STOCK_004": 6,
+      "STOCK_005": 6,
+      "STOCK_006": 6,
+      "STOCK_007": 6,
+      "STOCK_008": 6,
+      "STOCK_009": 6,
+      "STOCK_010": 6
+    },
+    "symbol_metrics": {
+      "STOCK_001": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0868,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 82.0,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      },
+      "STOCK_002": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0875,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 81.7,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      },
+      "STOCK_003": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0881,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 81.5,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      },
+      "STOCK_004": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0887,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 81.3,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      },
+      "STOCK_005": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0892,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 81.1,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      },
+      "STOCK_006": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0897,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 80.9,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      },
+      "STOCK_007": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0916,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 80.2,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      },
+      "STOCK_008": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0918,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 80.1,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      },
+      "STOCK_009": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0907,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 80.5,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      },
+      "STOCK_010": {
+        "DE": 0.0,
+        "rho": 1.0,
+        "turnover_WD": 0.0911,
+        "de_score": 0.0,
+        "rho_score": 100.0,
+        "turnover_score": 80.3,
+        "actions": {
+          "buy": 1,
+          "sell": 0,
+          "hold": 5
+        }
+      }
+    },
+    "examples": [
+      {
+        "day": "第20天",
+        "symbol": "STOCK_001",
+        "stock_name": "匿名标的001",
+        "position": 0,
+        "avg_cost": 0.0,
+        "news_count": 1,
+        "action": "buy",
+        "quantity": 870,
+        "belief_score": 0.2999,
+        "sentiment_class": 1,
+        "thought": "STOCK_001 60d step=0, m3=1.78%, m8=0.21%, drawdown=0.00%, pnl=0.00%; I open exposure based on recent trend and portfolio rebalancing needs; I choose buy."
+      },
+      {
+        "day": "第20天",
+        "symbol": "STOCK_002",
+        "stock_name": "匿名标的002",
+        "position": 0,
+        "avg_cost": 0.0,
+        "news_count": 1,
+        "action": "buy",
+        "quantity": 725,
+        "belief_score": 0.3013,
+        "sentiment_class": 1,
+        "thought": "STOCK_002 60d step=0, m3=1.33%, m8=1.04%, drawdown=-0.47%, pnl=0.00%; I open exposure based on recent trend and portfolio rebalancing needs; I choose buy."
+      },
+      {
+        "day": "第20天",
+        "symbol": "STOCK_003",
+        "stock_name": "匿名标的003",
+        "position": 0,
+        "avg_cost": 0.0,
+        "news_count": 1,
+        "action": "buy",
+        "quantity": 577,
+        "belief_score": 0.3304,
+        "sentiment_class": 1,
+        "thought": "STOCK_003 60d step=0, m3=3.36%, m8=3.28%, drawdown=0.00%, pnl=0.00%; I open exposure based on recent trend and portfolio rebalancing needs; I choose buy."
+      },
+      {
+        "day": "第20天",
+        "symbol": "STOCK_004",
+        "stock_name": "匿名标的004",
+        "position": 0,
+        "avg_cost": 0.0,
+        "news_count": 1,
+        "action": "buy",
+        "quantity": 609,
+        "belief_score": 0.312,
+        "sentiment_class": 1,
+        "thought": "STOCK_004 60d step=0, m3=2.50%, m8=1.23%, drawdown=0.00%, pnl=0.00%; I open exposure based on recent trend and portfolio rebalancing needs; I choose buy."
+      },
+      {
+        "day": "第20天",
+        "symbol": "STOCK_005",
+        "stock_name": "匿名标的005",
+        "position": 0,
+        "avg_cost": 0.0,
+        "news_count": 1,
+        "action": "buy",
+        "quantity": 533,
+        "belief_score": 0.2815,
+        "sentiment_class": 1,
+        "thought": "STOCK_005 60d step=0, m3=-0.18%, m8=-0.09%, drawdown=-0.71%, pnl=0.00%; I open exposure based on recent trend and portfolio rebalancing needs; I choose buy."
+      },
+      {
+        "day": "第20天",
+        "symbol": "STOCK_006",
+        "stock_name": "匿名标的006",
+        "position": 0,
+        "avg_cost": 0.0,
+        "news_count": 1,
+        "action": "buy",
+        "quantity": 550,
+        "belief_score": 0.3032,
+        "sentiment_class": 1,
+        "thought": "STOCK_006 60d step=0, m3=0.92%, m8=1.75%, drawdown=-0.70%, pnl=0.00%; I open exposure based on recent trend and portfolio rebalancing needs; I choose buy."
+      },
+      {
+        "day": "第20天",
+        "symbol": "STOCK_007",
+        "stock_name": "匿名标的007",
+        "position": 0,
+        "avg_cost": 0.0,
+        "news_count": 1,
+        "action": "buy",
+        "quantity": 408,
+        "belief_score": 0.2925,
+        "sentiment_class": 1,
+        "thought": "STOCK_007 60d step=0, m3=-1.15%, m8=-1.04%, drawdown=-6.22%, pnl=0.00%; I open exposure based on recent trend and portfolio rebalancing needs; I choose buy."
+      },
+      {
+        "day": "第20天",
+        "symbol": "STOCK_008",
+        "stock_name": "匿名标的008",
+        "position": 0,
+        "avg_cost": 0.0,
+        "news_count": 1,
+        "action": "buy",
+        "quantity": 265,
+        "belief_score": 0.2818,
+        "sentiment_class": 1,
+        "thought": "STOCK_008 60d step=0, m3=0.48%, m8=-1.96%, drawdown=-1.96%, pnl=0.00%; I open exposure based on recent trend and portfolio rebalancing needs; I choose buy."
+      }
+    ]
+  },
+  "task2": {
+    "score": 100.0,
+    "component_scores": {
+      "price_time_priority": 100.0,
+      "surveillance": 100.0,
+      "f1": 100.0,
+      "response_latency": 100.0
+    },
+    "metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_scores": {
+        "wash": 1.0,
+        "spoof": 1.0,
+        "pump": 1.0
+      }
+    },
+    "scenarios": {
+      "price_time": {
+        "checks": {
+          "two_trades": true,
+          "first_seller_priority": true,
+          "second_seller_priority": true,
+          "partial_fill_quantity": true,
+          "no_false_alert": true
+        },
+        "trade_count": 2,
+        "alert_count": 0
+      },
+      "wash_trading": {
+        "detected": true,
+        "latency": 0,
+        "alert_count": 1
+      },
+      "spoofing": {
+        "detected": true,
+        "latency": 0,
+        "alert_count": 1
+      },
+      "pump_and_dump": {
+        "detected": true,
+        "latency": 0,
+        "alert_count": 1
+      }
+    }
+  },
+  "overall_score": 83.4
+}
