@@ -1,7 +1,7 @@
-"""Formal competition submission for the two preliminary tasks.
+"""初赛两项任务的正式提交实现。
 
-The implementation is deterministic and self contained: no network calls, no
-external services, and only the official submission interface is used.
+本实现为确定性、自包含方案：默认不进行网络调用，不依赖外部服务，
+只使用官方提交接口。
 """
 
 from __future__ import annotations

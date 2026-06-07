@@ -4,16 +4,16 @@ tags: []
 
 ---
 
-# Competition Solution
+# 官方基线方案
 
-This package turns `题目.md` into a runnable baseline:
+本包将 `题目.md` 中的两项任务整理为可运行的基线实现：
 
-- `investment_agent.py`: BDI `InvestmentAgent` with market/news/social ingestion, personality traits, belief updates, disposition-effect bias, and decision thoughts.
-- `exchange.py`: price-time-priority limit order book plus a regulatory agent for wash trading, spoofing, and pump-and-dump alerts.
-- `metrics.py`: PGR/PLR/DE, Spearman belief-action correlation, Wasserstein turnover distance, F1, and latency scoring.
-- `demo.py`: an end-to-end smoke run.
+- `investment_agent.py`：BDI 风格 `InvestmentAgent`，包含行情、新闻、社交信息接入，个性参数，信念更新，处置效应偏差和决策思考。
+- `exchange.py`：价格优先、时间优先的限价订单簿，以及用于识别洗售交易、虚假挂单、拉高出货的监管 Agent。
+- `metrics.py`：PGR/PLR/DE、信念与行动的 Spearman 相关、换手率 Wasserstein 距离、F1 和响应延迟评分。
+- `demo.py`：端到端冒烟运行示例。
 
-Run:
+运行方式：
 
 ```bash
 python -m competition_solution.demo
