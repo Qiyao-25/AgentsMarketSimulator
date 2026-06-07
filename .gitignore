@@ -48,5 +48,5 @@ data/klines_dict.pkl
 report_60d_llm_smoke.json
 report_60d_llm.json
 report_60d_rule.json
-example.json
-finial_report.json
+example_report.json
+final_report.json
