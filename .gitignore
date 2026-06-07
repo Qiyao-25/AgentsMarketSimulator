@@ -45,6 +45,6 @@ team_*/
 # klines_dict.pkl 可能很大（>100MB），不要提交
 data/klines_dict.pkl
 
-report_60d_llm_smoke.json
-report_60d_llm.json
-report_60d_rule.json
+./report_60d_llm_smoke.json
+./report_60d_llm.json
+./report_60d_rule.json
